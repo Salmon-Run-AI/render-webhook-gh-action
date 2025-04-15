@@ -14,6 +14,9 @@ export interface RenderService {
     name: string
     repo: string
     branch: string
+    serviceDetails: {
+        url: string
+    }
 }
 
 interface Commit {
